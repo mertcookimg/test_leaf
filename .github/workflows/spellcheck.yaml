@@ -1,5 +1,5 @@
 name: Spellcheck
-on: workflow_dispatch
+on: push
 jobs:    
   typo_ci:
     runs-on: ubuntu-latest
